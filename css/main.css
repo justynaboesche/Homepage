@@ -1,0 +1,19 @@
+.main__image {
+    display: block;
+    box-shadow: 2px 2px 8px rgb(135, 135, 119);
+    margin: 20px auto;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    outline: 5px solid rgb(133, 178, 199);
+    outline-offset: 5px;
+}
+
+.main__image--red {
+    outline: 5px solid rgb(205, 143, 143);
+    outline-offset: 5px;
+}
+
+ .main__imageRemove {
+display: none;
+}
