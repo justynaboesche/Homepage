@@ -1,4 +1,4 @@
-console.log("Cześć!");
+console.log("Cześć! Welcome GIT");
 
 let changeBackgroundButtonElement = document.querySelector(".js-changeBackgroundButton");
 let bodyElement = document.querySelector(".js-body");
