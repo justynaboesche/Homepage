@@ -15,3 +15,4 @@ To create the application I have used:
 - BEM convention
 - JavaScript
 - GIT
+- Normalize
