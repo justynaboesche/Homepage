@@ -10,7 +10,6 @@ As you can see, the application contains two interactions. The first interaction
 ![Homepage GIF](https://github.com/justynaboesche/Homepage/blob/main/GIF_Homepage2.gif)
 ## Technologies used in the project
 To create the application I have used:
-- bleble
 - HTML
 - CSS
 - BEM convention
