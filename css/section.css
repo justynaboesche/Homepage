@@ -1,0 +1,62 @@
+.section {
+    color: #0b529a;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.section--red {
+    color: darkred; 
+}
+
+.section__header {
+    background-color: rgb(210, 204, 172);
+    box-shadow: 2px 2px 8px rgb(135, 135, 119);
+    margin-top: 0px;
+    padding-top: 5px;
+}
+ 
+.section__header--red{
+    color: darkred;
+}
+
+.section__paragraph {
+  padding: 10px;
+}
+
+.section__paragraph--highlighted {
+    color: #da4d11;
+}
+
+.section__paragraph--red {
+    color: darkred; 
+}
+
+.section__link {
+    color: currentColor;
+}
+
+.section__link--red {
+    color: currentColor;
+}
+
+.section__link:focus {
+    outline: 2px solid currentColor;
+}
+
+.section__link:hover {
+    color: #86a3c2;
+    outline: none;
+}
+
+.section__link--red:hover {
+    color: rgb(205, 143, 143);
+    outline: none;
+}
+
+.section__link:active {
+    color:rgb(154, 187, 187);
+}
+
+.section__link--red:active {
+    color:rgb(187, 159, 154);
+}

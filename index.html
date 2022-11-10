@@ -4,21 +4,246 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Obraz w tle</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Justyna Boesche - Homepage</title>
+    <link rel="icon" href="images/web-icon.png">
+    <meta property="og:image" content="images/share.png"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/element.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/article.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
     <script defer src="js/script.js"></script>
-    </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
 
-<body>
-    <div class="container">
-        <div class="">
+<body class="body js-body">
+    <button class="button js-changeBackgroundButton">Włącz <span class="button__changeColour js-changeColour">czerwony</span> motyw
+    </button>
 
-        </div>
-    </div>
+    <header class="header">
+        <h1 class="header__title">Justyna Boesche</h1>
+    </header>
+
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class=" navigation__item"><a class="navigation__link" href="#o-mnie" title="Kilka słów o mnie">O
+                    mnie</a></li>
+            <li class=" navigation__item"><a class="navigation__link" href="#zainteresowania"
+                    title="Co mnie interesuje">Zainteresowania</a></li>
+            <li class=" navigation__item"><a class="navigation__link" href="#mój-ogród" title="Mój wymarzony ogród">Mój
+                    ogród</a></li>
+            <li class=" navigation__item"><a class="navigation__link" href="#tabela"
+                    title="Moje ulubione owoce">Tabela</a></li>
+            <li class=" navigation__item"><a class="navigation__link" href="#zdjęcia"
+                    title="Kilka zdjęć z ogrodu">Zdjęcia</a></li>
+            <li class=" navigation__item"><a class="navigation__link" href="#kontakt" title="Kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <main class="main">
+        <img class="main__image js-image" src="https://i.postimg.cc/QM5rxg5d/just-besze.jpg" alt="Justyna Boesche" width="250">
+
+        <button class="button js-showRemoveImageButton"><span class="button__showRemove js-showRemove">Ukryj</span>
+            zdjęcie
+        </button>
+
+        <section id="o-mnie" class="section js-section">
+            <h2 class="section__header">Kilka słów o mnie</h2>
+            <p class="section__paragraph">Nazywam się Justyna i mieszkam w pięknej podkrakowskiej wsi. W swoim życiu
+                zawodowym pracowałam w
+                <b>księgowości</b>, <b>procuremencie</b>, a także w charakterze <b><i>stay-at-home-mum</i></b>.
+            </p>
+            <p class="section__paragraph section__paragraph--highlighted">W przyszłości chciałabym spróbować swoich sił
+                w branży IT, dlatego też
+                rozpoczęłam kurs <b>Frontend
+                    Developer
+                    od podstaw</b> w <strong> YouCode</strong>.<br>Mam nadzieję, że dzięki temu kursowi stanie się
+                to
+                możliwe.
+            </p>
+        </section>
+
+        <section id="zainteresowania" class="section js-section">
+            <h2 class="section__header">Co mnie interesuje</h2>
+            <p class="section__paragraph">Lubię chodzić po górach, grać na pianinie, śpiewać i tańczyć, jednak ostatnimi
+                czasy moją największą
+                pasją
+                jest <strong>ogród</strong>.
+            </p>
+        </section>
+
+        <section id="mój-ogród" class="section js-section">
+            <h2 class="section__header">Mój wymarzony ogród</h2>
+            <p class="section__paragraph">Całe życie marzyłam, żeby posiadać swój własny ogród. Przechadzanie się boso
+                po trawie wśród kwiatów
+                i
+                podjadanie owoców z drzew i krzewów? Moje marzenie się spełniło! Ogród zaprojektowałam tak, by prócz
+                <b>roślin
+                    ozdobnych</b> było w nim miejsce na rośliny użytkowe, takie jak: <b>drzewa i krzewy owocowe</b>,
+                <b>warzywa</b>, a także <b>zioła</b>.
+                Przeważająca część urządzona jest w <b>stylu rustykalnym</b> z elementami <b>stylu angielskiego</b>,
+                natomiast w uprawie roślin użytkowych inspiruję się zasadami <strong><a class="section__link"
+                        target="_blank" rel="noreferrer nooperner" title="Artykuł na Wikipedii o permakulturze"
+                        href="https://pl.wikipedia.org/wiki/Permakultura">permakultury (otwiera sie w nowej
+                        karcie)</a></strong>.
+            </p>
+        </section>
+        
+        <article class="article">
+            <h3 class="article__header">Ogród ozdobny</h3>
+            <p class="article__paragraph">Łącząc styl rustykalny z angielskim, w ogrodzie zdecydowałam się na takie
+                gatunki <b>drzew i krzewów
+                    ozdobnych</b> jak: róża w różnych odmianach, budleja, hortensja, lilak, krzewuszka, forsycja,
+                jaśminowiec, pęcherznica, kalina, grab, wierzba, brzoza, czeremcha, dereń. Rośliny te tworzą ramę
+                dla
+                rabat
+                <b>bylinowo-kwiatowych </b>skomponowanych m.in. z takich roślin jak: tulipany, ostróżki, nasturcje,
+                rudbekie, jeżówki, piwonie, maciejki, nagietki, kocimiętki, werbeny patogońskie i słoneczniki.
+            </p>
+        </article>
+
+        <article class="article">
+            <h3 class="article__header">Ogród owocowy</h3>
+            <p class="article__paragraph">Z roślin wydających jadalne owoce posadziłam w ogrodzie <b>krzewy</b> agrestu,
+                aroni, porzeczek,
+                malin,
+                borówek amerykańskich, jagody kamczackiej, pigwowca, derenia jadalnego, świdośliwy i rokitnika.
+                Zaletą
+                krzewów owocowych jest to, że większość z nich może rosnąć w miejscach nieco zacienionych.
+            </p>
+            <p class="article__paragraph">Z <b>drzew
+                    owocowych</b> posadziłam różne odmiany wiśni, czereśni, śliw, grusz i jabłoni oraz nieco
+                trudniejsze
+                do
+                uprawy ze względu na klimat i skłonność do chorób kilka odmian brzoskwiń i moreli. W miejscach
+                bardziej
+                nasłonecznionych zdecydowałam się na <b>pnącza</b> różnych odmian winorośli i <i
+                    class="article__foreignWord">aktinidii</i>
+                (tzw.
+                mini
+                kiwi) a także orzechy włoskie i laskowe.
+                Ogród owocowy uzupełniłam dodatkowo o wieloletnie poziomki i truskawki.
+            </p>
+            <p class="article__paragraph">Przy doborze konkretnych
+                gatunków i
+                odmian brałam pod uwagę ich skłonność do chorób, termin owocowania i sposób zapylania.<br>
+                Różnorodność
+                gatunków i odmian pozwala cieszyć się owocami nieustannie przez wiele miesięcy w roku!
+            </p>
+        </article>
+
+        <article class="article">
+            <h3 class="article__header">Ogród warzywny</h3>
+            <p class="article__paragraph">Uprawę warzyw postanowiłam prowadzić na tzw. <b>podwyższonych grządkach</b>,
+                czyli drewnianych
+                skrzyniach
+                wypełnionych podłożem, zgodnie z zasadą <i class="article__foreignWord">no-dig</i>, co pozwala uzyskać
+                większe plony przy
+                mniejszym
+                nakładzie pracy. Dodatkowo zdecydowałam się na <b>szklarnię</b>, by przedłużyć okres, w którym
+                możliwa
+                jest
+                uprawa roślin.<br>
+                Własne ogórki, pomidory, cukinia, dynia, marchewka? Wszystko w zasięgu paru
+                kroków od
+                domu!
+            </p>
+        </article>
+
+        <article class="article">
+            <h3 class="article__header">Ogródek ziołowy</h3>
+            <p class="article__paragraph">Dookoła domu założyłam w skrzynkach ogródek ziołowy, dzięki czemu wiele
+                <b>ziół</b> i smacznych
+                <b>przypraw</b> mam dosłownie na wyciągnięcie ręki. Nadmiar suszę lub zamrażam.<br>Przez większość
+                roku
+                mogę
+                cieszyć się własnym lubczykiem, tymiankiem, szałwią, koperkiem, natką pietruszki, bazylią, miętą i
+                majerankiem.
+            </p>
+        </article>
+
+        <article class=" article article--blueBackground">
+            <h3 class="article__header" id="tabela">Moje ulubione owoce</h3>
+            <div class="article__tableContainer">
+                <table class="table">
+                    <caption class="table__caption">Przykłady moich ulubionych owoców</caption>
+                    <thead>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="col">Gatunek
+                            </th>
+                            <th class="table__cell table__cell--header" scope="col">Nazwa łacińska
+                            </th>
+                            <th class="table__cell table__cell--header" scope="col">Odmiana
+                            </th>
+                            <th class="table__cell table__cell--header" scope="col">Termin owocowania
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="row" rowspan="2">Śliwa</th>
+                            <td class="table__cell">Prunus domestica</td>
+                            <td class="table__cell">Renkloda Ulena</td>
+                            <td class="table__cell">początek sierpnia</td>
+                        </tr>
+                        <tr class="table__row">
+                            <td class="table__cell">Prunus domestica</td>
+                            <td class="table__cell">Stanley</td>
+                            <td class="table__cell">połowa września</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="row">Czereśnia</th>
+                            <td class="table__cell">Prunus avium</td>
+                            <td class="table__cell">Vega</td>
+                            <td class="table__cell">połowa czerwca</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="row">Agrest</th>
+                            <td class="table__cell">Ribes grossularia</td>
+                            <td class="table__cell">Niesłuchowski</td>
+                            <td class="table__cell">początek lipca</td>
+                        </tr>
+
+                        <tr class="table__row">
+                            <th class="table__cell table__cell--header" scope="row">Truskawka</th>
+                            <td class="table__cell">Fragaria ananassa</td>
+                            <td class="table__cell">Senga Sengana</td>
+                            <td class="table__cell">początek czerwca</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </article>
+
+        <article id="zdjęcia" class="article">
+            <h3 class="article__header">Kilka zdjęć z ogrodu</h3>
+
+            <img class="article__image" src="https://i.postimg.cc/8cbqFc03/DSC04491.jpg" alt="skarpa z różami"
+                width="300">
+            <p class="article__imageCaption">W ogrodzie królują róże</p>
+
+            <img class="article__image" src="https://i.postimg.cc/Z54Mk3T3/DSC04477.jpg" alt="poziomki"
+                width="300">
+            <p class="article__imageCaption">Pyszne poziomki</p>
+
+            <img class="article__image" src="https://i.postimg.cc/44W00gdy/DSC04472.jpg" alt="zioła przy domu"
+                width="300">
+            <p class="article__imageCaption">Zioła wokół domu</p>
+        </article>
+
+    </main>
+
+    <footer id="kontakt" class="footer">
+        <p>Kontakt: <a href="mailto:justyna.boesche@gmail.com">justyna.boesche@gmail.com</a></p>
+        <p>©Copyright by Justyna Boesche 2022 All rights reserved</p>
+    </footer>
 </body>
 
 </html>
