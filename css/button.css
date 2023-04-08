@@ -6,4 +6,5 @@
     background-color: rgb(188 181 152);
     box-shadow: 2px 2px 8px rgb(135 135 119), inset 16px -15px 33px -5px #aba8a2;
     border: none;
+    cursor: pointer;
   }
