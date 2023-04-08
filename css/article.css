@@ -54,3 +54,9 @@
     padding: 40px;
     padding-bottom: 15px;
 }
+
+.article__imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
