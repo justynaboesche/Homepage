@@ -7,4 +7,5 @@
     box-shadow: 2px 2px 8px rgb(135 135 119), inset 16px -15px 33px -5px  rgb(209, 203, 184);
     border: none;
     cursor: pointer;
+    font-size: 14px;
   }
