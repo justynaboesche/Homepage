@@ -6,6 +6,7 @@
     const changeBackground = () => {
         const bodyElement = document.querySelector(".js-body");
         const changeColourElement = document.querySelector(".js-changeColour");
+        const buttons = document.querySelectorAll(".js-button")
         const navigation__linkElements = document.querySelectorAll(".navigation__link")
         const imageOutlineElement = document.querySelector(".js-image");
         const sectionElements = document.querySelectorAll(".js-section")
@@ -14,6 +15,9 @@
         const section__linkElement = document.querySelector(".section__link")
 
         bodyElement.classList.toggle("body--red");
+        buttons.forEach((button) => {
+            button.classList.toggle("button--red");
+        });
         navigation__linkElements.forEach((navigation__linkElement) => {
             navigation__linkElement.classList.toggle("navigation__link--red");
         });
