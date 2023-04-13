@@ -30,11 +30,8 @@
 
 .table__cell--blueHeader {
     background-color: rgb(133, 178, 199);
-    box-shadow: 2px 2px 8px rgb(135 135 119), inset 16px -15px 33px -5px #6693b7;
 }
 
 .table__cell--redHeader {
     background-color: rgb(234, 197, 197);
-    box-shadow: 2px 2px 8px rgb(135 135 119), inset 16px -15px 33px -5px rgb(174, 128, 128);
-
 }
