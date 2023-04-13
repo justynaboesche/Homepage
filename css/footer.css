@@ -1,0 +1,13 @@
+.footer {
+    background-color: rgb(133, 178, 199);
+    margin-bottom: 0px;
+}
+
+.footer--red {
+    background-color: rgb(234, 197, 197);
+}
+
+.footer__paragraph {
+    margin: 0px;
+    padding: 5px;
+}

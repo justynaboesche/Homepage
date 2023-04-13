@@ -1,8 +1,8 @@
-.table{
+.table {
     border-collapse: collapse;
     width: 100%;
 }
-    
+
 .table__caption {
     caption-side: bottom;
     text-align: right;
@@ -12,26 +12,29 @@
 }
 
 .table__row {
-    background-color: rgb(234, 230, 217);
+    background-color: white;
 }
 
 .table__row:nth-child(even) {
-    background-color: rgb(209, 203, 184);
-    }
+    background-color: hsl(0, 0%, 90%);
+}
 
 .table__row:hover {
-        background: rgb(181, 176, 176);
-    }
+    background: rgb(181, 176, 176);
+}
 
 .table__cell {
     border: 1px solid black;
     padding: 15px;
-} 
-
-.table__cell--header {
-    background-color: rgb(188 181 152);
-    box-shadow: 2px 2px 8px rgb(135 135 119), inset 16px -15px 33px -5px  rgb(209, 203, 184);
 }
 
-    
-    
+.table__cell--blueHeader {
+    background-color: rgb(133, 178, 199);
+    box-shadow: 2px 2px 8px rgb(135 135 119), inset 16px -15px 33px -5px #6693b7;
+}
+
+.table__cell--redHeader {
+    background-color: rgb(234, 197, 197);
+    box-shadow: 2px 2px 8px rgb(135 135 119), inset 16px -15px 33px -5px rgb(174, 128, 128);
+
+}

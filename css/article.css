@@ -1,5 +1,5 @@
 .article {
-    background-color: rgb(210, 204, 172);
+    background-color: white;
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
@@ -9,21 +9,26 @@
 }
 
 .article--blueBackground {
-    background-color: hsl(198, 25%, 60%);
+    background-color: hsl(196, 42%, 81%);
 }
 
 .article--redBackground {
-    background-color: rgb(234, 197, 197);
+    background-color: rgb(233, 220, 220);
 }
 
 .article__header {
-        font-size: 18px;
-        padding: 5px;
-        margin-top: 10px;
-        margin-bottom:  0px;
-        background-color:rgb(183, 176, 149);
-        box-shadow: 2px 2px 8px rgb(135 135 119), inset 16px -15px 33px -5px #6693b7;
-  }
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    background-color: rgb(133, 178, 199);
+    box-shadow: 2px 2px 8px rgb(135 135 119), inset 16px -15px 33px -5px #6693b7;
+}
+
+.article__header--red {
+    background-color: rgb(234, 197, 197);
+    box-shadow: 2px 2px 8px rgb(135 135 119), inset 16px -15px 33px -5px rgb(174, 128, 128);
+}
 
 .article__paragraph {
     padding: 10px;
@@ -39,7 +44,7 @@
     font-weight: 700;
 }
 
-.article__image{
+.article__image {
     padding-top: 16px;
 }
 
