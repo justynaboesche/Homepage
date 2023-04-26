@@ -1,16 +1,25 @@
 .button {
-    display: block;
-    padding: 10px;
-    margin: 20px auto;
-    border-radius: 20px;
-    background-color: rgb(133, 178, 199);
-    box-shadow: 2px 2px 8px rgb(135, 135, 119);
-    border: none;
-    cursor: pointer;
-    font-size: 14px;
-  }
-
-  .button--red {
-    background-color: rgb(234, 197, 197); 
+  display: block;
+  padding: 10px;
+  margin: 20px auto;
+  border-radius: 20px;
+  background-color: rgb(133, 178, 199);
+  box-shadow: 2px 2px 8px rgb(135, 135, 119);
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 1s, transform 0.8s;
 }
 
+.button:hover {
+  transform: scale(1.18);
+  background-color: rgb(88, 141, 163);
+}
+
+.button--red {
+  background-color: rgb(234, 197, 197);
+}
+
+.button--red:hover {
+  background-color: rgb(227, 155, 155);
+}
